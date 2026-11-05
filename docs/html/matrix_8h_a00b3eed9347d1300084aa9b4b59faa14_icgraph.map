@@ -1,0 +1,14 @@
+<map id="create_matrix" name="create_matrix">
+<area shape="rect" id="Node000001" title="Создание матрицы заданного размера, заполненной нулями." alt="" coords="299,57,411,84"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,57,60,84"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="317,48,286,34,250,21,211,12,179,8,147,11,109,21,76,38,50,58,46,54,73,33,107,16,147,6,179,3,211,7,252,16,288,29,323,48"/>
+<area shape="rect" id="Node000003" href="$matrix_8cpp.html#a22ddff2afbafb442af6b304fc45da953" title="Сложение двух матриц: C = A + B, c_ij = a_ij + b_ij." alt="" coords="132,30,227,58"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="281,60,227,54,227,48,286,59"/>
+<area shape="rect" id="Node000004" href="$matrix_8cpp.html#ab25adc6286a85175b01f1545f3e8fbd4" title="Создание матрицы из одномерного массива (заполнение по строкам)." alt="" coords="108,82,251,110"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="281,81,252,88,251,83,286,80"/>
+<area shape="rect" id="Node000005" href="$matrix_8cpp.html#acb87434bec1e8f89c319be6fd81a131d" title="Умножение матриц: C = A * B, c_ij = sum_k a_ik * b_kj." alt="" coords="117,134,242,162"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="315,91,252,123,221,136,220,131,250,119,310,92"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="115,57,61,68,59,63,118,53"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="90,82,61,78,60,72,95,79"/>
+<area shape="poly" id="edge7_Node000005_Node000002" title=" " alt="" coords="118,128,106,123,51,87,53,82,109,119,124,127"/>
+</map>

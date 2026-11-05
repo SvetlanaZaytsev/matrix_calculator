@@ -2,7 +2,7 @@ name: Matrix Calculator CI
 
 on:
   push:
-    branches: [main, develop, master]
+    branches: [main, develop]
   pull_request:
     branches: [main]
 
@@ -25,10 +25,12 @@ jobs:
         run: cmake --build build --parallel $(nproc)
 
       - name: Run tests
-        run: ctest --test-dir build --verbose --output-on-failure
+        run: cd build && ctest --verbose --output-on-failure
 
       - name: Check memory leaks
-        run: valgrind --leak-check=full --error-exitcode=1 ./build/tests/matrix_tests
+        run: |
+          valgrind --leak-check=full --error-exitcode=1 \
+            ./build/tests/matrix_tests
 
       - name: Generate documentation
         run: doxygen Doxyfile

@@ -72,4 +72,5 @@ void print_matrix(Matrix m);
  */
 Matrix matrix_from_array(double* data, int rows, int cols);
 
+void matrix_fill(Matrix m, double value);
 #endif // MATRIX_H

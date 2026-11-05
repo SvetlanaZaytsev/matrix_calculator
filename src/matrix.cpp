@@ -73,6 +73,7 @@ void free_matrix(Matrix m) {
     m.cols = 0;
 }
 
+
 Matrix matrix_add(Matrix a, Matrix b) {
     if (!is_valid(a) || !is_valid(b)) {
         throw std::invalid_argument("Invalid matrix");
@@ -157,4 +158,16 @@ Matrix matrix_from_array(double* data, int rows, int cols) {
         }
     }
     return mat;
+}
+
+// Individual task (variant 8): fill matrix with a constant
+void matrix_fill(Matrix m, double value) {
+    if (m.data == nullptr || m.rows <= 0 || m.cols <= 0) {
+        throw std::invalid_argument("Invalid matrix");
+    }
+    for (int i = 0; i < m.rows; ++i) {
+        for (int j = 0; j < m.cols; ++j) {
+            m.data[i][j] = value;
+        }
+    }
 }

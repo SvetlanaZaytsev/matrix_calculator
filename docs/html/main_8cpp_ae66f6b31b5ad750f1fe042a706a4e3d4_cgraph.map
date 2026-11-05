@@ -1,0 +1,20 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,143,60,171"/>
+<area shape="rect" id="Node000002" href="$matrix_8cpp.html#a00b3eed9347d1300084aa9b4b59faa14" title="Создание матрицы заданного размера, заполненной нулями." alt="" coords="299,143,411,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="34,142,42,116,56,83,77,51,106,26,144,8,179,3,213,9,252,26,283,46,308,73,344,129,338,129,304,76,279,50,250,30,211,14,178,8,146,13,109,30,81,54,61,86,47,118,40,144"/>
+<area shape="rect" id="Node000003" href="$matrix_8cpp.html#a4a9db3c0de82f0dd0ada2433b56dfaa4" title="Освобождение памяти, занятой матрицей." alt="" coords="131,39,228,67"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="42,142,69,110,106,78,119,72,116,76,109,82,73,113,47,144"/>
+<area shape="rect" id="Node000004" href="$matrix_8cpp.html#a22ddff2afbafb442af6b304fc45da953" title="Сложение двух матриц: C = A + B, c_ij = a_ij + b_ij." alt="" coords="132,91,227,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="59,146,126,122,123,127,62,150"/>
+<area shape="rect" id="Node000005" href="$matrix_8cpp.html#a0315fb6ad2b33ec03ff8c7e20451d124" title=" " alt="" coords="136,143,223,171"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="59,155,122,155,119,159,61,160"/>
+<area shape="rect" id="Node000006" href="$matrix_8cpp.html#ab25adc6286a85175b01f1545f3e8fbd4" title="Создание матрицы из одномерного массива (заполнение по строкам)." alt="" coords="108,195,251,223"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="60,164,126,188,122,191,61,170"/>
+<area shape="rect" id="Node000007" href="$matrix_8cpp.html#acb87434bec1e8f89c319be6fd81a131d" title="Умножение матриц: C = A * B, c_ij = sum_k a_ik * b_kj." alt="" coords="117,247,242,275"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="44,169,73,201,109,232,120,240,115,241,106,237,69,205,44,174"/>
+<area shape="rect" id="Node000008" href="$matrix_8cpp.html#a1e1d167b2d075e1e724f94eb9e0259df" title="Вывод матрицы в консоль с выравниванием и обрамлением." alt="" coords="129,299,230,327"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="39,169,65,226,84,257,109,285,118,292,112,292,106,289,80,260,60,228,37,174"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="227,117,294,138,289,139,228,122"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="228,192,294,175,289,177,230,197"/>
+<area shape="poly" id="edge9_Node000007_Node000002" title=" " alt="" coords="224,244,250,232,290,206,324,183,329,180,293,211,252,237,226,249"/>
+</map>
