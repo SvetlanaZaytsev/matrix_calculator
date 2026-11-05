@@ -49,13 +49,28 @@ Matrix create_matrix(int rows, int cols) {
 }
 
 void free_matrix(Matrix m) {
+    // 1. Проверка на nullptr - защита от двойного освобождения
     if (m.data == nullptr) {
         return;
     }
-    for (int i = 0; i < m.rows; ++i) {
-        delete[] m.data[i];
+
+    // 2. Освобождение памяти каждой строки
+    for (int i = 0; i < m.rows; i++) {
+        if (m.data[i] != nullptr) {
+            delete[] m.data[i];   // Освобождаем строку
+            m.data[i] = nullptr;  // Обнуляем указатель
+        }
     }
+
+    // 3. Освобождение массива указателей
     delete[] m.data;
+
+    // 4. Обнуление структуры (защита от use-after-free)
+    // Внимание: m - копия структуры, обнуляется только локальная копия.
+    // Освобождение оригинала - ответственность вызывающего кода.
+    m.data = nullptr;
+    m.rows = 0;
+    m.cols = 0;
 }
 
 Matrix matrix_add(Matrix a, Matrix b) {
